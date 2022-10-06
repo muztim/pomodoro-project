@@ -82,6 +82,7 @@ def count_down(count):
 window = Tk()
 window.title("Pomodoro")
 window.config(padx=100, pady=50, bg=YELLOW)
+window.maxsize(width=500, height=400)
 
 canvas = Canvas(width=205, height=230, bg=YELLOW, highlightthickness=0)
 image = PhotoImage(file="tomato.png")
